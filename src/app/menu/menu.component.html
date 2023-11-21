@@ -1,0 +1,36 @@
+<!-- menu.component.html -->
+
+<!-- menu.component.html -->
+
+<nav class="menu">
+    <div class="logo-container" (click)="irAInicio()">
+        <img src="assets/img/ei_1700434304627-removebg-preview.png" alt="Logo" class="logo">
+    </div>
+    <ul class="menu-list">
+        <li><a routerLink="/" routerLinkActive="active-link">Inicio</a></li>
+        <li><a routerLink="/recursos" routerLinkActive="active-link">Recursos</a></li>
+        <li><a routerLink="/historias" routerLinkActive="active-link">Historias</a></li>
+        <li><a routerLink="/contacto" routerLinkActive="active-link">Contacto</a></li>
+        <li><a routerLink="/proyecto" routerLinkActive="active-link">Proyecto</a></li>
+      <!--  <li><a routerLink="/sobre-mi" routerLinkActive="active-link">Sobre mi</a></li> -->
+        <li><a routerLink="/compartir-historias" routerLinkActive="active-link">Cuentanos tu historia</a></li>
+    </ul>
+    <div class="search-container">
+        <input type="text" placeholder="Buscar" [(ngModel)]="searchTerm" class="search-input">
+        <button class="search-button" (click)="buscar()">Buscar</button>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

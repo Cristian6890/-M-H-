@@ -1,0 +1,33 @@
+<div class="portada">
+<div class="formulario-container">
+    <h2>Formulario de Historias</h2>
+  
+    <form>
+      <!-- Campo de Nombre -->
+      <div class="campo">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      </div>
+  
+      <!-- Campo de Género -->
+      <div class="campo">
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero" required>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="no-binario">No binario</option>
+          <!-- Agrega más opciones según sea necesario -->
+        </select>
+      </div>
+  
+      <!-- Campo de Historia -->
+      <div class="campo">
+        <label for="historia">Tu Historia:</label>
+        <textarea id="historia" name="historia" placeholder="Comparte tu historia" rows="5" required></textarea>
+      </div>
+  
+      <!-- Botón de Envío -->
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</div>

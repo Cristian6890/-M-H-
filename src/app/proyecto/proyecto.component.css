@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.reference-photo {
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.banner {
+
+    background-size: cover;
+    background-position: center;
+    color: #000000; /* Color del texto */
+    text-align: center;
+    padding: 100px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    max-width: 600spx;
+    margin: 0 auto;
+}
+.portada {
+    background: linear-gradient(45deg, #55CDFC, #F7A8B8, #fff, #F7A8B8, #55CDFC);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #000; /* Cambiado a negro para asegurar que el texto sea legible */
+    padding: 100px 0;
+}
+
+

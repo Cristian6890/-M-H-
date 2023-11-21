@@ -1,0 +1,54 @@
+.portada-contacto {
+    background: linear-gradient(45deg, #55CDFC, #F7A8B8, #fff, #F7A8B8, #55CDFC);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #000; /* Cambiado a negro para asegurar que el texto sea legible */
+    padding: 100px 0;
+}
+
+
+.portada-contacto h1 {
+    font-size: 36px;
+}
+
+.portada-contacto p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.formulario-contacto {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.formulario-contacto label,
+.formulario-contacto input,
+.formulario-contacto textarea {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario-contacto button {
+    background-color: #FF4081;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario-contacto button:hover {
+    background-color: #E91E63;
+}

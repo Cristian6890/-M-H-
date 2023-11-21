@@ -1,0 +1,135 @@
+.banner-container {
+  background: linear-gradient(45deg, #FF0018, #FFA52C, #FFEB3B, #008026, #004DFF, #750787);
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  overflow: hidden; /* Asegura que el gradiente ocupe toda la pantalla */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.banner-container {
+  background: linear-gradient(45deg, #FF0018, #FFA52C, #FFEB3B, #008026, #004DFF, #750787);
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  overflow: hidden; /* Asegura que el gradiente ocupe toda la pantalla */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgba(243, 109, 109, 0.8); /* Fondo semitransparente para mejorar la legibilidad del texto */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5em;
+}
+
+.card-text {
+  font-size: 1.2em;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007BFF;
+  border-color: #007BFF;
+}
+body{
+  width: 150;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner-container {
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+}
+
+.banner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.banner-item {
+    flex: 0 0 100%; /* Hace que cada banner ocupe el 100% del ancho */
+    text-align: center;
+}
+
+.banner-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.cuadro {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 50%; /* La imagen se ajustará al ancho del contenedor */
+  height: auto;    /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
